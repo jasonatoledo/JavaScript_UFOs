@@ -6,7 +6,15 @@ The purpose of this challenge was to build upon the existing work completed in t
 
 ## Results
 
+The results of the updated JavaScript functions and HTML/CSS styling came out great. It is very user friendly and easy to use the filters since the event listener used was "change." Whether the user clicks enter or simply enters a value and hits tab to the next field, the results will update.
 
+This is the unfiltered view of the table:
+
+https://github.com/jasonatoledo/JavaScript_UFOs/blob/master/images/full_list.png
+
+In this example, I filtered the table with "San Diego" as the city and the results instantly changed:
+
+https://github.com/jasonatoledo/JavaScript_UFOs/blob/master/images/san_diego_filter.png
 
 ## Summary
 
