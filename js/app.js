@@ -64,12 +64,9 @@ function filterTable() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values. can't use a forEach, must split keyvalue pairs
     // can Object.entries(filters), Object.keys, Object.entries - key, value pairs set to a var, can use the forEach on
-    // new var, similar to list of list. Can use a for loop. 
-    // listvariable: the object.entries kv pairs 
-    // for ([var1, var2] of listvariable) {
-    // can use var1, var2 = key:value pair
-    //}
-    // may use 5 ifs
+    // new var, similar to list of list. Can use a for loop. listvariable: the object.entries kv pairs 
+    // for ([var1, var2] of listvariable) { can use var1, var2 = key:value pair }
+    
     let filteredList = Object.entries(filters);
     console.log(filteredList);
 
@@ -78,7 +75,6 @@ function filterTable() {
     let state = d3.select("#state").property("value");
     let shape = d3.select("#shape").property("value");
     let country = d3.select("#country").property("value");
-    
     
     for (i in filteredList) {
       
