@@ -18,11 +18,15 @@ https://github.com/jasonatoledo/JavaScript_UFOs/blob/master/images/san_diego_fil
 
 ## Summary
 
+Overall, I really enjoyed this challenge as I got more familiar with HTML/CSS styling and how that links to JS. I finished the challenge quicker than the web scraping challenge, not to say that this was easy, it was defintely a challenge.
+
 ### One drawback of the webpage
+
+- A drawback of the webpage is the lack of multiple pages. If the intent is to be a single landing page, I could see as more data is added to the UFO sighting list, scrolling/pagination will become an issue, as it will create a poor user experience if the results are too large to display.
 
 ### Two additional Recommendations for further development
 
-- The first thing I'd suggest to add for development would be instant sorting buttons to the headers of each table column, it can make a quick EDA easy on a site like this
+- The first thing I'd suggest to add for development would be instant sorting buttons to the headers of each table column, it can make a quick EDA easy on a site like this. An addon to this would be pagination to view 10 per page, 25 per page, 50 per page, 100 per page, etc. to keep the data neat and tidy.
 
 - The second thing I would add would be a "download as .csv" button so that a user could export the filtered results
 
